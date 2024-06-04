@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PIZZA FORM</title>
+</head>
+
+
+<body>
+<header>
+
+<h1>WELCOME TO PIZZA PIZZA</h1>
+</header>
+
+
+<img src="PIZZA1.jpg" width="300">
+<form>
+
+
+<fieldset>
+ <legend>YOUR Information</legend>
+ <label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<br>
+<label for="phone">Phone:</label>
+<input type="tel" id="phone" name="phone" required>
+<br>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<br>
+</fieldset>
+
+
+<fieldset>
+<legend>ORDER HERE</legend>
+<label for="quantity">No. of Pizzas:</label>
+<input type="number" id="quantity" name="quantity" min="1" max="10" required>
+
+<br>
+<label for="size">Size:</label>
+<select id="size" name="size" required>
+<option value="small">Small</option>
+<option value="medium">Medium</option>
+<option value="large">Large</option>
+</select>
+
+<br>
+<label for="shape">Shape:</label>
+<input type="radio" id="round" name="shape" value="round" checked>
+<label for="round">Round</label>
+<input type="radio" id="square" name="shape" value="square">
+<label for="square">Square</label>
+
+<br>
+<label for="toppings">Toppings:</label><br>
+<input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+<label for="pepperoni">Pepperoni</label><br>
+<input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+<label for="mushrooms">Mushrooms</label><br>
+<input type="checkbox" id="onions" name="toppings" value="onions">
+<label for="onions">Onions</label><br>
+<input type="checkbox" id="sausage" name="toppings" value="sausage">
+<label for="sausage">Sausage</label><br>
+                
+<br>
+<label for="crust">Crust:</label><br>
+<input type="radio" id="deep-dish" name="Crust" value="deep-dish">
+<label for="crust">deep dish</label><br>
+<input type="radio" id="thin-crust" name="Crust" value="thin-crust">
+<label for="crust">thin-crust</label><br>
+
+
+<br>
+<label for="delivery">Delivery Method:</label><br>
+<input type="radio" id="takeout" name="delivery" value="takeout" checked>
+<label for="takeout">Takeout</label><br>
+<input type="radio" id="delivery" name="delivery" value="delivery">
+<label for="delivery">Delivery</label><br>
+<input type="radio" id="eat-in" name="delivery" value="eat-in">
+<label for="eat-in">Eat-in</label><br>
+<br>
+</fieldset>
+
+            
+ <fieldset>
+<legend>Reviews</legend>
+<label for="comments">Comments:</label><br>
+<textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+</fieldset>
+
+<input type="submit" value="Place Order">
+<input type="reset" value="Reset">
+
+</form>
+
+
+    
+<footer>
+<p>THANKYOU FOR VISITING </p>
+</footer>
+    
+</body>
+</html>
